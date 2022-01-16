@@ -18,5 +18,6 @@
     <link rel="stylesheet" href="<?= base_url();?>assets/css/style.css">
 
 
-    <title><?= $title;?> - Jabatan Fungsional Umum</title>
+    <title><?= $title;?> - Jabatan Fungsional Umum | lasahido.id</title>
+	<link rel="icon" type="image/svg" href="https://lasahido.id/assets/img/root/favicon.png">
 </head>

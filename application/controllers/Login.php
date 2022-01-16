@@ -12,6 +12,10 @@ class Login extends CI_Controller {
 	
 	public function index()
 	{
+		if(($this->session->userdata('logged_in'))){
+            redirect('admin');
+		}
+
 		$title = "Login";
 
 		$this->load->view('admin/login', compact('title'));
