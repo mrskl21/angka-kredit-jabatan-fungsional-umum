@@ -21,10 +21,10 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item <?= (isset($title) && $title == "Home")? "active":"";?>">
-					<a class="nav-link text-white" href="<?=base_url();?>">Home</a>
+					<a class="nav-link text-white" href="<?=base_url();?>">Beranda</a>
 				</li>
 				<li class="nav-item <?= (isset($title) && $title == "About")? "active":"";?>">
-					<a class="nav-link text-white" href="<?=base_url();?>about">About</a>
+					<a class="nav-link text-white" href="<?=base_url();?>about">Tentang</a>
 				</li>
 			</ul>
 		</div>
